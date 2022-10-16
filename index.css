@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("./76.webp");
+    background-size: 100%;
+  
+   
+}
+.circle{
+    height: 40vh;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    background: url("./bodybackground.jpg");
+}
+.circle:hover{
+    transform:scale(1.2);
+}
+.circle img{
+    height: 100px;
+    width: 30%;
+    
+}
+.circle div h3{
+    
+    width: 30%
+}
+.circle div:first-child{
+    display: flex;
+    justify-content: space-around;
+}
+.circle div:last-child{
+    display: flex;
+    justify-content: end;
+    margin-top: 200px;
+    
+}
+.circle:first-child{
+    background-color: yellow;
+}
+.circle:nth-child(3){
+    background-color: orange;
+  
+
+   
+    
+}
